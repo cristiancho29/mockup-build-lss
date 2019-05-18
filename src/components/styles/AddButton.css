@@ -1,0 +1,13 @@
+.Add_button {
+    position:fixed;
+    z-index: 2;
+    bottom: 20px;
+    right: 10px;
+    width:60px;
+    height: 60px;
+    border-radius:100px;
+    background: #EE8D38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

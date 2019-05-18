@@ -1,0 +1,174 @@
+@media (max-width:799px) {
+    .Navbar{
+        display:flex;
+        position: fixed;
+        width:100%;
+        height:120px;
+        background: #E6E6E6;
+        z-index: 20;
+    }
+    
+    .Logo{
+        display: flex;
+        justify-content: center;
+        align-items:flex-end;
+        align-self:flex-end;
+        justify-self: flex-start;
+        width:190px;
+        height:120px;
+    }
+    
+    .Logo > img{
+        width:100px;
+        height:100px;
+        margin: auto;
+    }
+
+    .Navbar_options_responsive {
+        display:flex;
+        flex-direction: column;
+        align-items: flex-end;
+        align-self:flex-start;
+        margin:0 50px 0 auto;
+        width:calc(100% - 240px);
+    }
+
+    .Menu_square {
+        width:60px;
+        height:60px; 
+        border-radius: 10px;
+        border:2px solid #858585;
+        display: flex;
+        margin-top:30px;
+        justify-content: center;
+        align-items: center;
+        background: #193848;
+    }
+
+    .Menu_square > .Menu_icon{
+        width:50px;
+        height:50px;
+        color:white;
+    }
+
+    .Menu_options {
+        display:none;
+        flex-direction: column;
+        width:200px;
+        border:1px solid lightgray;
+    }
+
+    .Menu_options > .Menu_item {
+        display:flex;
+        height: 80px;
+        min-width:200px;
+        justify-content: center;
+        align-items: center;
+        background: white;
+    }
+
+    .Menu_options > .Menu_item:hover {
+        background: #193848;
+        transition:0.5s;
+    }
+
+    .Menu_item > .option_icon {
+        width: 24px;
+        height: 24px;
+        margin:auto 20px auto 20px;
+        color: #193848;
+    }
+
+    .Menu_item:hover > * {
+        color:white;
+        transition:0.5s;
+    }
+
+    .Menu_item > p {
+        margin:0;
+        margin-right: auto;
+        padding:0;
+        font-size:14px;
+        font-weight: bold;
+        color:#193848;
+    }
+    
+    .Navbar_options{
+        display: none;
+    }
+}/*End of media*/
+
+@media (min-width:800px) {
+    .Navbar{
+        display:flex;
+        position: fixed;
+        flex-direction:row;
+        width:100%;
+        height:120px;
+        background: #E6E6E6;
+        z-index: 3;
+    }
+    
+    .Logo{
+        display: flex;
+        justify-content: center;
+        align-items:flex-end;
+        align-self:flex-end;
+        width:190px;
+        height:120px;
+    }
+    
+    .Logo > img{
+        width:100px;
+        height:100px;
+        margin: auto;
+    }
+
+    .Navbar_options_responsive {
+        display:none;
+    }
+    
+    .Navbar_options{
+        display: flex;
+        flex-wrap: wrap;
+        align-self:flex-end;
+        align-items: center;
+        margin:auto 50px auto 20px;
+        width:calc(100% - 260px);
+    }
+    
+    .Navbar_item{
+        align-self:flex-start;
+        flex-direction:column;
+        display:flex;
+        align-items:center;
+        width:20%;
+        min-width:100px;
+        background: white;
+    }
+    .Navbar_item:hover{
+        background: #193848;
+        transition:0.5s;
+    }
+    
+    .Navbar_item > .option_icon{
+        margin-top:5px;
+        width: 24px;
+        height: 24px;
+        color: #193848;
+    }
+    
+    .Navbar_item:hover > *{
+        color:white;
+        transition:0.5s;
+    }
+    
+    .Navbar_item > p{
+        margin:0;
+        padding:0;
+        margin-bottom:5px;
+        font-size:12px;
+        font-weight: bold;
+        color:#193848;
+    }
+}

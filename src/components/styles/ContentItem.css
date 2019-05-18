@@ -1,0 +1,361 @@
+/*
+Font gray color: #858585
+Yellow color: #EE8D38
+*/
+@media (max-width:649px){
+    .Content_item {
+        display:flex;
+        width:100%;
+        margin:10px 0;
+    }
+    
+    .Content_item > .check_circle_icon {
+        margin:auto 20px;
+        width:20px;
+        height:20px;
+        color:#EE8D38;    
+    }
+    
+    .Delivery_block {
+        display:flex;
+        flex-wrap:wrap-reverse;
+        width:calc(100% - 40px);
+        height: 200px;
+        background: white;
+        border-radius:25px;
+    }
+    /*First block*/
+    .Date_block {
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        width:50%;
+        height: 80px;
+        border-right: 1px solid lightgray;
+        margin:auto 0;
+    }
+    
+    .Date_block > p {
+        margin:0 10px;
+        font-size:12px;
+        padding:0;
+        align-self:center;
+        color:#858585;
+    }
+    /*Second block*/
+    .Path_block {
+        height: 100px;
+        width: 50%;
+        margin:auto 0;
+        display:flex;
+        justify-content: center;
+    }
+    
+    .Path_block > .location_icon {
+        margin:0 20px;
+        align-self:center;
+    }
+    
+    .Path_info {
+        display:flex;
+        flex-direction:column;
+        align-self: center;
+        align-items: center;
+        margin: 0 50px 0 0;
+    }
+    
+    .Path_info > p {
+        margin:0;
+        padding:0;
+        color:#858585;
+        font-size:12px;
+        text-align: center;
+    }
+    
+    .Path_info > .down_icon {
+        width:20px;
+        height:20px;
+        color:#EE8D38;
+    }
+    /*Third block*/
+    .Info_block {
+        display:flex;
+        align-items: center;
+        background: white;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom: 1px solid lightgray;
+        width:100%;
+        height:100px;
+    }
+    
+    .Info_block > .truck_icon {
+        width:60px;
+        height:60px;
+        transform:rotateY(180deg);
+        margin:0 0 0 40px;
+        justify-self:flex-start;
+        color:#858585;
+    }
+    
+    .Info_block > h1 {
+        margin:auto;
+        color:#858585;
+        font-size:30px;
+    }
+    
+    .Info_block > button {
+        justify-self:flex-end;
+        width:30px;
+        height:30px;
+        border:none;
+        border-radius:5px;
+        color:white;
+        font-size:10px;
+        background: #ED5356;
+    }
+    
+    .Info_block > .option_icon {
+        width:30px;
+        height:30px;
+        justify-self:flex-end;
+        margin:0 20px;
+        color:#858585;
+    }
+}/*End media*/
+
+@media (min-width:650px) and (max-width:1099px) {
+    .Content_item {
+        display:flex;
+        width:100%;
+        margin:10px 0;
+    }
+    
+    .Content_item > .check_circle_icon {
+        margin:auto 20px;
+        width:40px;
+        height:40px;
+        color:#EE8D38;    
+    }
+    
+    .Delivery_block {
+        display:flex;
+        flex-wrap:wrap-reverse;
+        width:calc(100% - 40px);
+        height: 200px;
+        background: white;
+        border-radius:25px;
+    }
+    /*First block*/
+    .Date_block {
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        width:50%;
+        height: 80px;
+        border-right: 1px solid lightgray;
+        margin:auto 0;
+    }
+    
+    .Date_block > p {
+        
+        margin:0 10px;
+        font-size:12px;
+        padding:0;
+        align-self:center;
+        color:#858585;
+    }
+    /*Second block*/
+    .Path_block {
+        height: 100px;
+        width: 50%;
+        margin:auto 0;
+        display:flex;
+        justify-content: center;
+    }
+    
+    .Path_block > .location_icon {
+        margin:0 20px;
+        align-self:center;
+    }
+    
+    .Path_info {
+        display:flex;
+        flex-direction:column;
+        align-self: center;
+        align-items: center;
+        margin: 0 50px 0 0;
+    }
+    
+    .Path_info > p {
+        margin:0;
+        padding:0;
+        color:#858585;
+        font-size:12px;
+    }
+    
+    .Path_info > .down_icon {
+        width:28px;
+        height:28px;
+        color:#EE8D38;
+    }
+    /*Third block*/
+    .Info_block {
+        display:flex;
+        align-items: center;
+        background: white;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom: 1px solid lightgray;
+        width:100%;
+        height:100px;
+    }
+    
+    .Info_block > .truck_icon {
+        width:60px;
+        height:60px;
+        transform:rotateY(180deg);
+        margin:0 0 0 40px;
+        justify-self:flex-start;
+        color:#858585;
+    }
+    
+    .Info_block > h1 {
+        margin:auto;
+        color:#858585;
+        font-size:30px;
+    }
+    
+    .Info_block > button {
+        justify-self:flex-end;
+        width:30px;
+        height:30px;
+        border:none;
+        border-radius:5px;
+        color:white;
+        font-size:10px;
+        background: #ED5356;
+    }
+    
+    .Info_block > .option_icon {
+        width:30px;
+        height:30px;
+        justify-self:flex-end;
+        margin:0 20px;
+        color:#858585;
+    }
+}
+@media (min-width:1100px) {
+    .Content_item {
+        display:flex;
+        width:100%;
+        margin:20px 0;
+    }
+    
+    .Content_item > .check_circle_icon {
+        margin:auto 20px;
+        width:40px;
+        height:40px;
+        color:#EE8D38;    
+    }
+    
+    .Delivery_block {
+        display:flex;
+        width:calc(100% - 40px);
+        height:100px;
+        background: white;
+        border-radius: 25px;
+    }
+    /*First block*/
+    .Date_block {
+        display:flex;
+        text-align: center;
+        width:150px;
+        height: 80%;
+        border-right: 1px solid lightgray;
+        margin:auto 0;
+    }
+    
+    .Date_block > p {
+        margin:0 10px;
+        font-size:12px;
+        padding:0;
+        align-self:center;
+        color:#858585;
+    }
+    /*Second block*/
+    .Path_block {
+        height: 80%;
+        min-width:250px;
+        margin:auto 0;
+        display:flex;
+        justify-content: center;
+        border-right: 1px solid lightgray;
+    }
+    
+    .Path_block > .location_icon {
+        margin:0 20px;
+        align-self:center;
+    }
+    
+    .Path_info {
+        display:flex;
+        flex-direction:column;
+        align-self: center;
+        align-items: center;
+        margin: 0 50px 0 0;
+    }
+    
+    .Path_info > p {
+        margin:0;
+        padding:0;
+        color:#858585;
+        font-size:12px;
+    }
+    
+    .Path_info > .down_icon {
+        width:28px;
+        height:28px;
+        color:#EE8D38;
+    }
+    /*Third block*/
+    .Info_block {
+        display:flex;
+        align-items: center;
+        width:100%;
+    }
+    
+    .Info_block > .truck_icon {
+        width:60px;
+        height:60px;
+        transform:rotateY(180deg);
+        margin:0 0 0 40px;
+        justify-self:flex-start;
+        color:#858585;
+    }
+    
+    .Info_block > h1 {
+        margin:auto;
+        color:#858585;
+        font-size:30px;
+    }
+    
+    .Info_block > button {
+        justify-self:flex-end;
+        width:30px;
+        height:30px;
+        border:none;
+        border-radius:5px;
+        color:white;
+        font-size:10px;
+        background: #ED5356;
+    }
+    
+    .Info_block > .option_icon {
+        width:30px;
+        height:30px;
+        justify-self:flex-end;
+        margin:0 20px;
+        color:#858585;
+    }
+}/*End of media*/
